@@ -89,10 +89,34 @@ a {
     display: flex;
     justify-content: center;
     gap: 50px;
-    padding-bottom: 5rem;
+    padding-bottom: 9rem;
 }
 
 .info{
     width:140px;
     text-align: center;
+}
+
+.testimonial {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 8rem;
+    flex-direction: column;
+}
+
+.thor-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width:900px;
+    align-self: center;
+}
+
+.From-thor{
+    display: flex;
+    padding-right: 5rem;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: flex-end;
 }
