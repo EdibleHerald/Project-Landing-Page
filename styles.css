@@ -1,5 +1,6 @@
 body {
     margin:0; padding:0;
+    font-family: sans-serif;
 }
 
 .header {
@@ -13,7 +14,6 @@ body {
 
 .header-logo {
     font-size:24px;
-    color: #F9FaF8;
     font-weight:bold;
 }
 
@@ -23,10 +23,47 @@ body {
     margin-right:8rem;
     align-items: center;
     font-size: 16px;
-    color:#E5E7EB;
 }
 
 a {
     text-decoration: none;
     color: #F9FaF8;
+}
+
+.Top {
+    display: flex;
+    background-color: #1F2937;
+    padding-top: 7rem;
+    justify-content: center;
+    padding-bottom: 7rem;
+}
+
+.top-page-text {
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    padding-right: 2rem;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight:bold;
+}
+
+.white-text{
+    color:#F9FaF8;
+    
+}
+
+.top-button{
+    display:flex;
+    width:100px;
+    justify-content: center;
+    border-radius: 8px; 
+    border:none;
+    background-color: #3882F6;
+    padding:8px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 8px;
 }
