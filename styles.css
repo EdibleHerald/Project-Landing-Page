@@ -7,7 +7,6 @@ body {
     display:flex;
     justify-content: space-between;
     padding-left:7rem;
-    background-color: #1F2937;
     flex:auto;
     padding-top:8px;
 }
@@ -32,7 +31,6 @@ a {
 
 .Top {
     display: flex;
-    background-color: #1F2937;
     padding-top: 7rem;
     justify-content: center;
     padding-bottom: 7rem;
@@ -48,11 +46,6 @@ a {
 .hero-main-text {
     font-size: 48px;
     font-weight:bold;
-}
-
-.white-text{
-    color:#F9FaF8;
-    
 }
 
 .top-button{
@@ -74,7 +67,6 @@ a {
     padding: 2rem;
     font-size: 36px;
     font-weight: bolder;
-    color: #1F2937;
 }
 
 .blank-image {
@@ -107,7 +99,6 @@ a {
 .thor-quote {
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
     width:900px;
     align-self: center;
 }
@@ -115,8 +106,61 @@ a {
 .From-thor{
     display: flex;
     padding-right: 5rem;
-    color: #1F2937;
     font-size: 24px;
     font-weight: bold;
     justify-content: flex-end;
+}
+
+.Call-to-action{
+    margin: 8rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #3882F6;
+    border-radius: 8px;
+    
+}
+
+.amrunningoutofnames{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-button{
+  align-self: center;
+  padding:3px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: transparent;
+  border:2px solid white; border-radius: 8px;
+}
+
+.Notquitefooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Calltoaction-font{
+    margin:8px;
+    margin-left:0;
+}
+
+.Calltoaction-headerfont{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.white-text{
+    color:#F9FaF8;
+    
+}
+
+.darkblue-background{
+    background-color: #1F2937;
+}
+
+.darkblue-text{
+    color:#1F2937;
 }
